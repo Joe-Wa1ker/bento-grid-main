@@ -263,6 +263,7 @@
   /*======== Card-1 ========*/
   .card-1 {
     padding: 1em;
+    grid-template-columns: 1fr 1fr;
   }
   .card-1 h1 {
     font-size: 2.8rem;
@@ -283,7 +284,7 @@
   /*======== Card-2 ========*/
 
   .card-2 {
-    padding: 2.1em 1em 2.9em;
+    padding: 3.3em 1em 3.3em;
   }
   .card-2 h2 {
     font-size: 2rem;
@@ -326,6 +327,7 @@
   .card-4 {
     text-align: left;
     padding: 1.5em 1em 1.5em 1.5em;
+    grid-template-rows: repeat(3, 1fr);
   }
   .card-4 h2{
     font-size: 1.6rem;
@@ -350,7 +352,8 @@
     flex-direction: row-reverse;
     align-items: center;
     text-align: left;
-    gap: 2em;;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr;
   }
 
   .card-5 h2 {
@@ -383,6 +386,7 @@
 
   .card-7 {
     padding: 5.5em 0;
+    grid-template-rows: 1fr 1fr;
   }
 
   .card-7 h2{
@@ -404,6 +408,8 @@
   /*======== Card-8 ========*/
 
   .card-8 {
+    grid-template-rows: 1fr 1fr;
+    padding-top: 2.2em;;
   }
 
   .card-8 h2{
